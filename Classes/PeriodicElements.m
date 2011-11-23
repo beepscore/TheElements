@@ -163,7 +163,8 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
 		// if an array already exists in the name index dictionary
 		// simply add the element to it, otherwise create an array
 		// and add it to the name index dictionary with the letter as the key
-		if (existingArray = [nameIndexesDictionary valueForKey:firstLetter]) 
+        existingArray = [nameIndexesDictionary valueForKey:firstLetter];
+		if (existingArray) 
 		{
 		[existingArray addObject:anElement];
 		} else {
