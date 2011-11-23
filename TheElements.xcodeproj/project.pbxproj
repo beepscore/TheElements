@@ -373,6 +373,8 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DECB5558147D991700D108F3 /* libxml2.dylib */,
+				DECB555B147D992700D108F3 /* SenTestingKit.framework */,
 				1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */,
 				2883B6A00D944613003F08B5 /* QuartzCore.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
@@ -393,8 +395,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				DECB555B147D992700D108F3 /* SenTestingKit.framework */,
-				DECB5558147D991700D108F3 /* libxml2.dylib */,
 				DE800505147D980D0004C734 /* FoneMonkey */,
 				53B194650FB4DD8100B35AC9 /* Readme.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
