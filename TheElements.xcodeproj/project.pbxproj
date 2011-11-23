@@ -175,6 +175,8 @@
 		DE800596147D980E0004C734 /* Verify.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800552147D980D0004C734 /* Verify.png */; };
 		DE800597147D980E0004C734 /* VScroll.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800553147D980D0004C734 /* VScroll.png */; };
 		DE800598147D980E0004C734 /* WaitFor.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800554147D980D0004C734 /* WaitFor.png */; };
+		DECB5559147D991700D108F3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DECB5558147D991700D108F3 /* libxml2.dylib */; };
+		DECB555C147D992700D108F3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECB555B147D992700D108F3 /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -323,6 +325,8 @@
 		DE800552147D980D0004C734 /* Verify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Verify.png; sourceTree = "<group>"; };
 		DE800553147D980D0004C734 /* VScroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VScroll.png; sourceTree = "<group>"; };
 		DE800554147D980D0004C734 /* WaitFor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaitFor.png; sourceTree = "<group>"; };
+		DECB5558147D991700D108F3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DECB555B147D992700D108F3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,6 +345,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECB555C147D992700D108F3 /* SenTestingKit.framework in Frameworks */,
+				DECB5559147D991700D108F3 /* libxml2.dylib in Frameworks */,
 				DE5D120C147D96EC008441B1 /* Foundation.framework in Frameworks */,
 				DE5D120D147D96EC008441B1 /* UIKit.framework in Frameworks */,
 				DE5D120E147D96EC008441B1 /* CoreGraphics.framework in Frameworks */,
@@ -387,6 +393,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DECB555B147D992700D108F3 /* SenTestingKit.framework */,
+				DECB5558147D991700D108F3 /* libxml2.dylib */,
 				DE800505147D980D0004C734 /* FoneMonkey */,
 				53B194650FB4DD8100B35AC9 /* Readme.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -1028,6 +1036,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1039,6 +1051,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/FoneMonkey/lib\"",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PREBINDING = NO;
 				PRODUCT_NAME = "TheElements copy";
 			};
@@ -1051,6 +1064,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TheElements_Prefix.pch;
@@ -1060,6 +1077,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/FoneMonkey/lib\"",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PREBINDING = NO;
 				PRODUCT_NAME = "TheElements copy";
 				PROVISIONING_PROFILE = "";
