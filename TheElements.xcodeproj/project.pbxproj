@@ -107,6 +107,74 @@
 		DE5D120D147D96EC008441B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		DE5D120E147D96EC008441B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
 		DE5D120F147D96EC008441B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2883B6A00D944613003F08B5 /* QuartzCore.framework */; };
+		DE800555147D980E0004C734 /* iphonesim in Resources */ = {isa = PBXBuildFile; fileRef = DE800507147D980D0004C734 /* iphonesim */; };
+		DE800556147D980E0004C734 /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = DE800508147D980D0004C734 /* COPYRIGHT */; };
+		DE800557147D980E0004C734 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DE80050A147D980D0004C734 /* index.html */; };
+		DE800558147D980E0004C734 /* extralibs.zip in Resources */ = {isa = PBXBuildFile; fileRef = DE80050B147D980D0004C734 /* extralibs.zip */; };
+		DE800559147D980E0004C734 /* FoneMonkeyRunner.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE80050C147D980D0004C734 /* FoneMonkeyRunner.plist */; };
+		DE80055A147D980E0004C734 /* libFoneMonkey.5.4a.beta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE800515147D980D0004C734 /* libFoneMonkey.5.4a.beta.a */; };
+		DE80055B147D980E0004C734 /* libFoneMonkeyOCUnit.5.4a.beta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE800516147D980D0004C734 /* libFoneMonkeyOCUnit.5.4a.beta.a */; };
+		DE80055C147D980E0004C734 /* ReleaseNotes.html in Resources */ = {isa = PBXBuildFile; fileRef = DE800517147D980D0004C734 /* ReleaseNotes.html */; };
+		DE80055D147D980E0004C734 /* FMClear.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800519147D980D0004C734 /* FMClear.png */; };
+		DE80055E147D980E0004C734 /* FMCommand.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80051A147D980D0004C734 /* FMCommand.png */; };
+		DE80055F147D980E0004C734 /* FMCommandEditViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE80051B147D980D0004C734 /* FMCommandEditViewController_iPad.xib */; };
+		DE800560147D980E0004C734 /* FMCommandEditViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE80051C147D980D0004C734 /* FMCommandEditViewController_iPhone.xib */; };
+		DE800561147D980E0004C734 /* FMConsoleController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE80051D147D980D0004C734 /* FMConsoleController_iPad.xib */; };
+		DE800562147D980E0004C734 /* FMConsoleController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE80051E147D980D0004C734 /* FMConsoleController_iPhone.xib */; };
+		DE800563147D980E0004C734 /* FMDataDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80051F147D980D0004C734 /* FMDataDrive.png */; };
+		DE800564147D980E0004C734 /* FMDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800520147D980D0004C734 /* FMDelete.png */; };
+		DE800565147D980E0004C734 /* FMEdit.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800521147D980D0004C734 /* FMEdit.png */; };
+		DE800566147D980E0004C734 /* FMGetVariable.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800522147D980D0004C734 /* FMGetVariable.png */; };
+		DE800567147D980E0004C734 /* FMGorilla_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE800523147D980D0004C734 /* FMGorilla_iPad.xib */; };
+		DE800568147D980E0004C734 /* FMGorilla_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE800524147D980D0004C734 /* FMGorilla_iPhone.xib */; };
+		DE800569147D980E0004C734 /* FMGorillaView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE800525147D980D0004C734 /* FMGorillaView_iPad.xib */; };
+		DE80056A147D980E0004C734 /* FMGorillaView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE800526147D980D0004C734 /* FMGorillaView_iPhone.xib */; };
+		DE80056B147D980E0004C734 /* FMInputText.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800527147D980D0004C734 /* FMInputText.png */; };
+		DE80056C147D980E0004C734 /* FMObjConnect.html in Resources */ = {isa = PBXBuildFile; fileRef = DE800528147D980D0004C734 /* FMObjConnect.html */; };
+		DE80056D147D980E0004C734 /* FMObjConnect.jslib in Resources */ = {isa = PBXBuildFile; fileRef = DE800529147D980D0004C734 /* FMObjConnect.jslib */; };
+		DE80056E147D980E0004C734 /* FMOpenScriptDialog_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE80052A147D980D0004C734 /* FMOpenScriptDialog_iPad.xib */; };
+		DE80056F147D980E0004C734 /* FMOpenScriptDialog_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE80052B147D980D0004C734 /* FMOpenScriptDialog_iPhone.xib */; };
+		DE800570147D980E0004C734 /* FMPauseMovie.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80052C147D980D0004C734 /* FMPauseMovie.png */; };
+		DE800571147D980E0004C734 /* FMPlayMovie.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80052D147D980D0004C734 /* FMPlayMovie.png */; };
+		DE800572147D980E0004C734 /* FMQunitAPI.jslib in Resources */ = {isa = PBXBuildFile; fileRef = DE80052E147D980D0004C734 /* FMQunitAPI.jslib */; };
+		DE800573147D980E0004C734 /* FMReturn.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80052F147D980D0004C734 /* FMReturn.png */; };
+		DE800574147D980E0004C734 /* FMRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800530147D980D0004C734 /* FMRotate.png */; };
+		DE800575147D980E0004C734 /* FMSaveScriptDialog_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE800531147D980D0004C734 /* FMSaveScriptDialog_iPad.xib */; };
+		DE800576147D980E0004C734 /* FMSaveScriptDialog_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE800532147D980D0004C734 /* FMSaveScriptDialog_iPhone.xib */; };
+		DE800577147D980E0004C734 /* FMTouch.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800533147D980D0004C734 /* FMTouch.png */; };
+		DE800578147D980E0004C734 /* FoneMonkey.jslib in Resources */ = {isa = PBXBuildFile; fileRef = DE800534147D980D0004C734 /* FoneMonkey.jslib */; };
+		DE800579147D980E0004C734 /* gorilla-32.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800535147D980D0004C734 /* gorilla-32.png */; };
+		DE80057A147D980E0004C734 /* gorillalogic.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800536147D980D0004C734 /* gorillalogic.png */; };
+		DE80057B147D980E0004C734 /* icon_arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800537147D980D0004C734 /* icon_arrow_down.png */; };
+		DE80057C147D980E0004C734 /* icon_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800538147D980D0004C734 /* icon_arrow_up.png */; };
+		DE80057D147D980E0004C734 /* icon_controls_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800539147D980D0004C734 /* icon_controls_3.png */; };
+		DE80057E147D980E0004C734 /* icon_controls_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80053A147D980D0004C734 /* icon_controls_4.png */; };
+		DE80057F147D980E0004C734 /* icon_filming.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80053B147D980D0004C734 /* icon_filming.png */; };
+		DE800580147D980E0004C734 /* icon_script.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80053C147D980D0004C734 /* icon_script.png */; };
+		DE800581147D980E0004C734 /* icon_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80053D147D980D0004C734 /* icon_timer.png */; };
+		DE800582147D980E0004C734 /* jquery-latest.jslib in Resources */ = {isa = PBXBuildFile; fileRef = DE80053E147D980D0004C734 /* jquery-latest.jslib */; };
+		DE800583147D980E0004C734 /* Move.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80053F147D980D0004C734 /* Move.png */; };
+		DE800584147D980E0004C734 /* objc.template in Resources */ = {isa = PBXBuildFile; fileRef = DE800540147D980D0004C734 /* objc.template */; };
+		DE800585147D980E0004C734 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800541147D980D0004C734 /* Pause.png */; };
+		DE800586147D980E0004C734 /* qunit.css in Resources */ = {isa = PBXBuildFile; fileRef = DE800542147D980D0004C734 /* qunit.css */; };
+		DE800587147D980E0004C734 /* qunit.jslib in Resources */ = {isa = PBXBuildFile; fileRef = DE800543147D980D0004C734 /* qunit.jslib */; };
+		DE800588147D980E0004C734 /* qunit.template in Resources */ = {isa = PBXBuildFile; fileRef = DE800544147D980D0004C734 /* qunit.template */; };
+		DE800589147D980E0004C734 /* Scroll.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800545147D980D0004C734 /* Scroll.png */; };
+		DE80058A147D980E0004C734 /* ScrollDown.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800546147D980D0004C734 /* ScrollDown.png */; };
+		DE80058B147D980E0004C734 /* ScrollLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800547147D980D0004C734 /* ScrollLeft.png */; };
+		DE80058C147D980E0004C734 /* ScrollRight.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800548147D980D0004C734 /* ScrollRight.png */; };
+		DE80058D147D980E0004C734 /* ScrollUp.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800549147D980D0004C734 /* ScrollUp.png */; };
+		DE80058E147D980E0004C734 /* Select.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80054A147D980D0004C734 /* Select.png */; };
+		DE80058F147D980E0004C734 /* Shake.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80054B147D980D0004C734 /* Shake.png */; };
+		DE800590147D980E0004C734 /* Slide.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80054C147D980D0004C734 /* Slide.png */; };
+		DE800591147D980E0004C734 /* Switch.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80054D147D980D0004C734 /* Switch.png */; };
+		DE800592147D980E0004C734 /* Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80054E147D980D0004C734 /* Tab.png */; };
+		DE800593147D980E0004C734 /* TouchLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = DE80054F147D980D0004C734 /* TouchLeft.png */; };
+		DE800594147D980E0004C734 /* TouchRight.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800550147D980D0004C734 /* TouchRight.png */; };
+		DE800595147D980E0004C734 /* uiautomation.template in Resources */ = {isa = PBXBuildFile; fileRef = DE800551147D980D0004C734 /* uiautomation.template */; };
+		DE800596147D980E0004C734 /* Verify.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800552147D980D0004C734 /* Verify.png */; };
+		DE800597147D980E0004C734 /* VScroll.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800553147D980D0004C734 /* VScroll.png */; };
+		DE800598147D980E0004C734 /* WaitFor.png in Resources */ = {isa = PBXBuildFile; fileRef = DE800554147D980D0004C734 /* WaitFor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -181,6 +249,80 @@
 		C8E2ACA50D5B7C950056EE5C /* ElementsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsTableViewController.m; sourceTree = "<group>"; };
 		DE5D1213147D96EC008441B1 /* TheElements copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheElements copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5D1216147D96EC008441B1 /* TheElements copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TheElements copy-Info.plist"; path = "/Users/stevebaker/Documents/iOSProjects/TheElements/TheElements copy-Info.plist"; sourceTree = "<absolute>"; };
+		DE800507147D980D0004C734 /* iphonesim */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = iphonesim; sourceTree = "<group>"; };
+		DE800508147D980D0004C734 /* COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT; sourceTree = "<group>"; };
+		DE80050A147D980D0004C734 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DE80050B147D980D0004C734 /* extralibs.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = extralibs.zip; sourceTree = "<group>"; };
+		DE80050C147D980D0004C734 /* FoneMonkeyRunner.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FoneMonkeyRunner.plist; sourceTree = "<group>"; };
+		DE80050E147D980D0004C734 /* FMCommandEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMCommandEvent.h; sourceTree = "<group>"; };
+		DE80050F147D980D0004C734 /* FoneMonkey+OCUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FoneMonkey+OCUnit.h"; sourceTree = "<group>"; };
+		DE800510147D980D0004C734 /* FoneMonkeyAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoneMonkeyAPI.h; sourceTree = "<group>"; };
+		DE800511147D980D0004C734 /* TouchSynthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchSynthesis.h; sourceTree = "<group>"; };
+		DE800512147D980D0004C734 /* UIControl+FMready.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+FMready.h"; sourceTree = "<group>"; };
+		DE800513147D980D0004C734 /* UIView+FMReady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FMReady.h"; sourceTree = "<group>"; };
+		DE800515147D980D0004C734 /* libFoneMonkey.5.4a.beta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFoneMonkey.5.4a.beta.a; sourceTree = "<group>"; };
+		DE800516147D980D0004C734 /* libFoneMonkeyOCUnit.5.4a.beta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFoneMonkeyOCUnit.5.4a.beta.a; sourceTree = "<group>"; };
+		DE800517147D980D0004C734 /* ReleaseNotes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ReleaseNotes.html; sourceTree = "<group>"; };
+		DE800519147D980D0004C734 /* FMClear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMClear.png; sourceTree = "<group>"; };
+		DE80051A147D980D0004C734 /* FMCommand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMCommand.png; sourceTree = "<group>"; };
+		DE80051B147D980D0004C734 /* FMCommandEditViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMCommandEditViewController_iPad.xib; sourceTree = "<group>"; };
+		DE80051C147D980D0004C734 /* FMCommandEditViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMCommandEditViewController_iPhone.xib; sourceTree = "<group>"; };
+		DE80051D147D980D0004C734 /* FMConsoleController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMConsoleController_iPad.xib; sourceTree = "<group>"; };
+		DE80051E147D980D0004C734 /* FMConsoleController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMConsoleController_iPhone.xib; sourceTree = "<group>"; };
+		DE80051F147D980D0004C734 /* FMDataDrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMDataDrive.png; sourceTree = "<group>"; };
+		DE800520147D980D0004C734 /* FMDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMDelete.png; sourceTree = "<group>"; };
+		DE800521147D980D0004C734 /* FMEdit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMEdit.png; sourceTree = "<group>"; };
+		DE800522147D980D0004C734 /* FMGetVariable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMGetVariable.png; sourceTree = "<group>"; };
+		DE800523147D980D0004C734 /* FMGorilla_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMGorilla_iPad.xib; sourceTree = "<group>"; };
+		DE800524147D980D0004C734 /* FMGorilla_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMGorilla_iPhone.xib; sourceTree = "<group>"; };
+		DE800525147D980D0004C734 /* FMGorillaView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMGorillaView_iPad.xib; sourceTree = "<group>"; };
+		DE800526147D980D0004C734 /* FMGorillaView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMGorillaView_iPhone.xib; sourceTree = "<group>"; };
+		DE800527147D980D0004C734 /* FMInputText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMInputText.png; sourceTree = "<group>"; };
+		DE800528147D980D0004C734 /* FMObjConnect.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FMObjConnect.html; sourceTree = "<group>"; };
+		DE800529147D980D0004C734 /* FMObjConnect.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FMObjConnect.jslib; sourceTree = "<group>"; };
+		DE80052A147D980D0004C734 /* FMOpenScriptDialog_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMOpenScriptDialog_iPad.xib; sourceTree = "<group>"; };
+		DE80052B147D980D0004C734 /* FMOpenScriptDialog_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMOpenScriptDialog_iPhone.xib; sourceTree = "<group>"; };
+		DE80052C147D980D0004C734 /* FMPauseMovie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMPauseMovie.png; sourceTree = "<group>"; };
+		DE80052D147D980D0004C734 /* FMPlayMovie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMPlayMovie.png; sourceTree = "<group>"; };
+		DE80052E147D980D0004C734 /* FMQunitAPI.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FMQunitAPI.jslib; sourceTree = "<group>"; };
+		DE80052F147D980D0004C734 /* FMReturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMReturn.png; sourceTree = "<group>"; };
+		DE800530147D980D0004C734 /* FMRotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMRotate.png; sourceTree = "<group>"; };
+		DE800531147D980D0004C734 /* FMSaveScriptDialog_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMSaveScriptDialog_iPad.xib; sourceTree = "<group>"; };
+		DE800532147D980D0004C734 /* FMSaveScriptDialog_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMSaveScriptDialog_iPhone.xib; sourceTree = "<group>"; };
+		DE800533147D980D0004C734 /* FMTouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMTouch.png; sourceTree = "<group>"; };
+		DE800534147D980D0004C734 /* FoneMonkey.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FoneMonkey.jslib; sourceTree = "<group>"; };
+		DE800535147D980D0004C734 /* gorilla-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gorilla-32.png"; sourceTree = "<group>"; };
+		DE800536147D980D0004C734 /* gorillalogic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorillalogic.png; sourceTree = "<group>"; };
+		DE800537147D980D0004C734 /* icon_arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_down.png; sourceTree = "<group>"; };
+		DE800538147D980D0004C734 /* icon_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_up.png; sourceTree = "<group>"; };
+		DE800539147D980D0004C734 /* icon_controls_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_controls_3.png; sourceTree = "<group>"; };
+		DE80053A147D980D0004C734 /* icon_controls_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_controls_4.png; sourceTree = "<group>"; };
+		DE80053B147D980D0004C734 /* icon_filming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_filming.png; sourceTree = "<group>"; };
+		DE80053C147D980D0004C734 /* icon_script.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_script.png; sourceTree = "<group>"; };
+		DE80053D147D980D0004C734 /* icon_timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_timer.png; sourceTree = "<group>"; };
+		DE80053E147D980D0004C734 /* jquery-latest.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "jquery-latest.jslib"; sourceTree = "<group>"; };
+		DE80053F147D980D0004C734 /* Move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Move.png; sourceTree = "<group>"; };
+		DE800540147D980D0004C734 /* objc.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objc.template; sourceTree = "<group>"; };
+		DE800541147D980D0004C734 /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
+		DE800542147D980D0004C734 /* qunit.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = qunit.css; sourceTree = "<group>"; };
+		DE800543147D980D0004C734 /* qunit.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qunit.jslib; sourceTree = "<group>"; };
+		DE800544147D980D0004C734 /* qunit.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qunit.template; sourceTree = "<group>"; };
+		DE800545147D980D0004C734 /* Scroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scroll.png; sourceTree = "<group>"; };
+		DE800546147D980D0004C734 /* ScrollDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollDown.png; sourceTree = "<group>"; };
+		DE800547147D980D0004C734 /* ScrollLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollLeft.png; sourceTree = "<group>"; };
+		DE800548147D980D0004C734 /* ScrollRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollRight.png; sourceTree = "<group>"; };
+		DE800549147D980D0004C734 /* ScrollUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollUp.png; sourceTree = "<group>"; };
+		DE80054A147D980D0004C734 /* Select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Select.png; sourceTree = "<group>"; };
+		DE80054B147D980D0004C734 /* Shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shake.png; sourceTree = "<group>"; };
+		DE80054C147D980D0004C734 /* Slide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slide.png; sourceTree = "<group>"; };
+		DE80054D147D980D0004C734 /* Switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Switch.png; sourceTree = "<group>"; };
+		DE80054E147D980D0004C734 /* Tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab.png; sourceTree = "<group>"; };
+		DE80054F147D980D0004C734 /* TouchLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TouchLeft.png; sourceTree = "<group>"; };
+		DE800550147D980D0004C734 /* TouchRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TouchRight.png; sourceTree = "<group>"; };
+		DE800551147D980D0004C734 /* uiautomation.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uiautomation.template; sourceTree = "<group>"; };
+		DE800552147D980D0004C734 /* Verify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Verify.png; sourceTree = "<group>"; };
+		DE800553147D980D0004C734 /* VScroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VScroll.png; sourceTree = "<group>"; };
+		DE800554147D980D0004C734 /* WaitFor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaitFor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +345,8 @@
 				DE5D120D147D96EC008441B1 /* UIKit.framework in Frameworks */,
 				DE5D120E147D96EC008441B1 /* CoreGraphics.framework in Frameworks */,
 				DE5D120F147D96EC008441B1 /* QuartzCore.framework in Frameworks */,
+				DE80055A147D980E0004C734 /* libFoneMonkey.5.4a.beta.a in Frameworks */,
+				DE80055B147D980E0004C734 /* libFoneMonkeyOCUnit.5.4a.beta.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +387,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DE800505147D980D0004C734 /* FoneMonkey */,
 				53B194650FB4DD8100B35AC9 /* Readme.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -439,6 +584,127 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		DE800505147D980D0004C734 /* FoneMonkey */ = {
+			isa = PBXGroup;
+			children = (
+				DE800506147D980D0004C734 /* bin */,
+				DE800508147D980D0004C734 /* COPYRIGHT */,
+				DE800509147D980D0004C734 /* docs */,
+				DE80050B147D980D0004C734 /* extralibs.zip */,
+				DE80050C147D980D0004C734 /* FoneMonkeyRunner.plist */,
+				DE80050D147D980D0004C734 /* include */,
+				DE800514147D980D0004C734 /* lib */,
+				DE800517147D980D0004C734 /* ReleaseNotes.html */,
+				DE800518147D980D0004C734 /* resources */,
+			);
+			path = FoneMonkey;
+			sourceTree = "<group>";
+		};
+		DE800506147D980D0004C734 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				DE800507147D980D0004C734 /* iphonesim */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		DE800509147D980D0004C734 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				DE80050A147D980D0004C734 /* index.html */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		DE80050D147D980D0004C734 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DE80050E147D980D0004C734 /* FMCommandEvent.h */,
+				DE80050F147D980D0004C734 /* FoneMonkey+OCUnit.h */,
+				DE800510147D980D0004C734 /* FoneMonkeyAPI.h */,
+				DE800511147D980D0004C734 /* TouchSynthesis.h */,
+				DE800512147D980D0004C734 /* UIControl+FMready.h */,
+				DE800513147D980D0004C734 /* UIView+FMReady.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DE800514147D980D0004C734 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DE800515147D980D0004C734 /* libFoneMonkey.5.4a.beta.a */,
+				DE800516147D980D0004C734 /* libFoneMonkeyOCUnit.5.4a.beta.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		DE800518147D980D0004C734 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE800519147D980D0004C734 /* FMClear.png */,
+				DE80051A147D980D0004C734 /* FMCommand.png */,
+				DE80051B147D980D0004C734 /* FMCommandEditViewController_iPad.xib */,
+				DE80051C147D980D0004C734 /* FMCommandEditViewController_iPhone.xib */,
+				DE80051D147D980D0004C734 /* FMConsoleController_iPad.xib */,
+				DE80051E147D980D0004C734 /* FMConsoleController_iPhone.xib */,
+				DE80051F147D980D0004C734 /* FMDataDrive.png */,
+				DE800520147D980D0004C734 /* FMDelete.png */,
+				DE800521147D980D0004C734 /* FMEdit.png */,
+				DE800522147D980D0004C734 /* FMGetVariable.png */,
+				DE800523147D980D0004C734 /* FMGorilla_iPad.xib */,
+				DE800524147D980D0004C734 /* FMGorilla_iPhone.xib */,
+				DE800525147D980D0004C734 /* FMGorillaView_iPad.xib */,
+				DE800526147D980D0004C734 /* FMGorillaView_iPhone.xib */,
+				DE800527147D980D0004C734 /* FMInputText.png */,
+				DE800528147D980D0004C734 /* FMObjConnect.html */,
+				DE800529147D980D0004C734 /* FMObjConnect.jslib */,
+				DE80052A147D980D0004C734 /* FMOpenScriptDialog_iPad.xib */,
+				DE80052B147D980D0004C734 /* FMOpenScriptDialog_iPhone.xib */,
+				DE80052C147D980D0004C734 /* FMPauseMovie.png */,
+				DE80052D147D980D0004C734 /* FMPlayMovie.png */,
+				DE80052E147D980D0004C734 /* FMQunitAPI.jslib */,
+				DE80052F147D980D0004C734 /* FMReturn.png */,
+				DE800530147D980D0004C734 /* FMRotate.png */,
+				DE800531147D980D0004C734 /* FMSaveScriptDialog_iPad.xib */,
+				DE800532147D980D0004C734 /* FMSaveScriptDialog_iPhone.xib */,
+				DE800533147D980D0004C734 /* FMTouch.png */,
+				DE800534147D980D0004C734 /* FoneMonkey.jslib */,
+				DE800535147D980D0004C734 /* gorilla-32.png */,
+				DE800536147D980D0004C734 /* gorillalogic.png */,
+				DE800537147D980D0004C734 /* icon_arrow_down.png */,
+				DE800538147D980D0004C734 /* icon_arrow_up.png */,
+				DE800539147D980D0004C734 /* icon_controls_3.png */,
+				DE80053A147D980D0004C734 /* icon_controls_4.png */,
+				DE80053B147D980D0004C734 /* icon_filming.png */,
+				DE80053C147D980D0004C734 /* icon_script.png */,
+				DE80053D147D980D0004C734 /* icon_timer.png */,
+				DE80053E147D980D0004C734 /* jquery-latest.jslib */,
+				DE80053F147D980D0004C734 /* Move.png */,
+				DE800540147D980D0004C734 /* objc.template */,
+				DE800541147D980D0004C734 /* Pause.png */,
+				DE800542147D980D0004C734 /* qunit.css */,
+				DE800543147D980D0004C734 /* qunit.jslib */,
+				DE800544147D980D0004C734 /* qunit.template */,
+				DE800545147D980D0004C734 /* Scroll.png */,
+				DE800546147D980D0004C734 /* ScrollDown.png */,
+				DE800547147D980D0004C734 /* ScrollLeft.png */,
+				DE800548147D980D0004C734 /* ScrollRight.png */,
+				DE800549147D980D0004C734 /* ScrollUp.png */,
+				DE80054A147D980D0004C734 /* Select.png */,
+				DE80054B147D980D0004C734 /* Shake.png */,
+				DE80054C147D980D0004C734 /* Slide.png */,
+				DE80054D147D980D0004C734 /* Switch.png */,
+				DE80054E147D980D0004C734 /* Tab.png */,
+				DE80054F147D980D0004C734 /* TouchLeft.png */,
+				DE800550147D980D0004C734 /* TouchRight.png */,
+				DE800551147D980D0004C734 /* uiautomation.template */,
+				DE800552147D980D0004C734 /* Verify.png */,
+				DE800553147D980D0004C734 /* VScroll.png */,
+				DE800554147D980D0004C734 /* WaitFor.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -574,6 +840,72 @@
 				DE5D11F9147D96EC008441B1 /* Icon-Small@2x.png in Resources */,
 				DE5D11FA147D96EC008441B1 /* Icon@2x.png in Resources */,
 				DE5D11FB147D96EC008441B1 /* iTunesArtwork in Resources */,
+				DE800555147D980E0004C734 /* iphonesim in Resources */,
+				DE800556147D980E0004C734 /* COPYRIGHT in Resources */,
+				DE800557147D980E0004C734 /* index.html in Resources */,
+				DE800558147D980E0004C734 /* extralibs.zip in Resources */,
+				DE800559147D980E0004C734 /* FoneMonkeyRunner.plist in Resources */,
+				DE80055C147D980E0004C734 /* ReleaseNotes.html in Resources */,
+				DE80055D147D980E0004C734 /* FMClear.png in Resources */,
+				DE80055E147D980E0004C734 /* FMCommand.png in Resources */,
+				DE80055F147D980E0004C734 /* FMCommandEditViewController_iPad.xib in Resources */,
+				DE800560147D980E0004C734 /* FMCommandEditViewController_iPhone.xib in Resources */,
+				DE800561147D980E0004C734 /* FMConsoleController_iPad.xib in Resources */,
+				DE800562147D980E0004C734 /* FMConsoleController_iPhone.xib in Resources */,
+				DE800563147D980E0004C734 /* FMDataDrive.png in Resources */,
+				DE800564147D980E0004C734 /* FMDelete.png in Resources */,
+				DE800565147D980E0004C734 /* FMEdit.png in Resources */,
+				DE800566147D980E0004C734 /* FMGetVariable.png in Resources */,
+				DE800567147D980E0004C734 /* FMGorilla_iPad.xib in Resources */,
+				DE800568147D980E0004C734 /* FMGorilla_iPhone.xib in Resources */,
+				DE800569147D980E0004C734 /* FMGorillaView_iPad.xib in Resources */,
+				DE80056A147D980E0004C734 /* FMGorillaView_iPhone.xib in Resources */,
+				DE80056B147D980E0004C734 /* FMInputText.png in Resources */,
+				DE80056C147D980E0004C734 /* FMObjConnect.html in Resources */,
+				DE80056D147D980E0004C734 /* FMObjConnect.jslib in Resources */,
+				DE80056E147D980E0004C734 /* FMOpenScriptDialog_iPad.xib in Resources */,
+				DE80056F147D980E0004C734 /* FMOpenScriptDialog_iPhone.xib in Resources */,
+				DE800570147D980E0004C734 /* FMPauseMovie.png in Resources */,
+				DE800571147D980E0004C734 /* FMPlayMovie.png in Resources */,
+				DE800572147D980E0004C734 /* FMQunitAPI.jslib in Resources */,
+				DE800573147D980E0004C734 /* FMReturn.png in Resources */,
+				DE800574147D980E0004C734 /* FMRotate.png in Resources */,
+				DE800575147D980E0004C734 /* FMSaveScriptDialog_iPad.xib in Resources */,
+				DE800576147D980E0004C734 /* FMSaveScriptDialog_iPhone.xib in Resources */,
+				DE800577147D980E0004C734 /* FMTouch.png in Resources */,
+				DE800578147D980E0004C734 /* FoneMonkey.jslib in Resources */,
+				DE800579147D980E0004C734 /* gorilla-32.png in Resources */,
+				DE80057A147D980E0004C734 /* gorillalogic.png in Resources */,
+				DE80057B147D980E0004C734 /* icon_arrow_down.png in Resources */,
+				DE80057C147D980E0004C734 /* icon_arrow_up.png in Resources */,
+				DE80057D147D980E0004C734 /* icon_controls_3.png in Resources */,
+				DE80057E147D980E0004C734 /* icon_controls_4.png in Resources */,
+				DE80057F147D980E0004C734 /* icon_filming.png in Resources */,
+				DE800580147D980E0004C734 /* icon_script.png in Resources */,
+				DE800581147D980E0004C734 /* icon_timer.png in Resources */,
+				DE800582147D980E0004C734 /* jquery-latest.jslib in Resources */,
+				DE800583147D980E0004C734 /* Move.png in Resources */,
+				DE800584147D980E0004C734 /* objc.template in Resources */,
+				DE800585147D980E0004C734 /* Pause.png in Resources */,
+				DE800586147D980E0004C734 /* qunit.css in Resources */,
+				DE800587147D980E0004C734 /* qunit.jslib in Resources */,
+				DE800588147D980E0004C734 /* qunit.template in Resources */,
+				DE800589147D980E0004C734 /* Scroll.png in Resources */,
+				DE80058A147D980E0004C734 /* ScrollDown.png in Resources */,
+				DE80058B147D980E0004C734 /* ScrollLeft.png in Resources */,
+				DE80058C147D980E0004C734 /* ScrollRight.png in Resources */,
+				DE80058D147D980E0004C734 /* ScrollUp.png in Resources */,
+				DE80058E147D980E0004C734 /* Select.png in Resources */,
+				DE80058F147D980E0004C734 /* Shake.png in Resources */,
+				DE800590147D980E0004C734 /* Slide.png in Resources */,
+				DE800591147D980E0004C734 /* Switch.png in Resources */,
+				DE800592147D980E0004C734 /* Tab.png in Resources */,
+				DE800593147D980E0004C734 /* TouchLeft.png in Resources */,
+				DE800594147D980E0004C734 /* TouchRight.png in Resources */,
+				DE800595147D980E0004C734 /* uiautomation.template in Resources */,
+				DE800596147D980E0004C734 /* Verify.png in Resources */,
+				DE800597147D980E0004C734 /* VScroll.png in Resources */,
+				DE800598147D980E0004C734 /* WaitFor.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +1035,10 @@
 				GCC_PREFIX_HEADER = TheElements_Prefix.pch;
 				INFOPLIST_FILE = "TheElements copy-Info.plist";
 				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FoneMonkey/lib\"",
+				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "TheElements copy";
 			};
@@ -720,6 +1056,10 @@
 				GCC_PREFIX_HEADER = TheElements_Prefix.pch;
 				INFOPLIST_FILE = "TheElements copy-Info.plist";
 				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FoneMonkey/lib\"",
+				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "TheElements copy";
 				PROVISIONING_PROFILE = "";
