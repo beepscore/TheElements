@@ -66,7 +66,8 @@
 // which provides data to the tableview, and the ElementDataSource protocol which
 // provides information about the elements data that is displayed,
 - (id)initWithDataSource:(id<ElementsDataSource,UITableViewDataSource>)theDataSource {
-	if ([self init]) {
+    self = [super init];
+    if (self) {
 		theTableView = nil;
 		
 		// retain the data source

@@ -63,7 +63,8 @@
 @synthesize discoveryYear;
 
 - (id)initWithDictionary:(NSDictionary *)aDictionary {
-	if ([self init]) {
+    self = [super init];
+    if (self) {
 		self.atomicNumber = [aDictionary valueForKey:@"atomicNumber"];
 		self.atomicWeight = [aDictionary valueForKey:@"atomicWeight"];
 		self.discoveryYear = [aDictionary valueForKey:@"discoveryYear"];
