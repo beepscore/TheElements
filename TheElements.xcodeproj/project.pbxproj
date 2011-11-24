@@ -250,7 +250,7 @@
 		C8E2ACA40D5B7C950056EE5C /* ElementsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementsTableViewController.h; sourceTree = "<group>"; };
 		C8E2ACA50D5B7C950056EE5C /* ElementsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsTableViewController.m; sourceTree = "<group>"; };
 		DE5D1213147D96EC008441B1 /* TheElements copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheElements copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE5D1216147D96EC008441B1 /* TheElements copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TheElements copy-Info.plist"; path = "/Users/stevebaker/Documents/iOSProjects/TheElements/TheElements copy-Info.plist"; sourceTree = "<absolute>"; };
+		DE5D1216147D96EC008441B1 /* TheElementsMonkey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TheElementsMonkey-Info.plist"; path = "/Users/stevebaker/Documents/iOSProjects/TheElements/TheElementsMonkey-Info.plist"; sourceTree = "<absolute>"; };
 		DE800507147D980D0004C734 /* iphonesim */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = iphonesim; sourceTree = "<group>"; };
 		DE800508147D980D0004C734 /* COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT; sourceTree = "<group>"; };
 		DE80050A147D980D0004C734 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -403,7 +403,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				C81A17C90D66590100E26CF7 /* ReadMe and Other Documentation */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				DE5D1216147D96EC008441B1 /* TheElements copy-Info.plist */,
+				DE5D1216147D96EC008441B1 /* TheElementsMonkey-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1045,7 +1045,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TheElements_Prefix.pch;
-				INFOPLIST_FILE = "TheElements copy-Info.plist";
+				INFOPLIST_FILE = "TheElementsMonkey-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1071,7 +1071,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TheElements_Prefix.pch;
-				INFOPLIST_FILE = "TheElements copy-Info.plist";
+				INFOPLIST_FILE = "TheElementsMonkey-Info.plist";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
